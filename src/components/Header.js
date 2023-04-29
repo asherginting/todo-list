@@ -7,10 +7,12 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: '#16ABF8',
+    height: '105px',
   },
   title: {
     flexGrow: 1,
     marginLeft: '220px',
+    marginTop: '34px',
     fontFamily: 'Poppins',
     fontWeight: 700,
     fontSize: '24px',
