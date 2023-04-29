@@ -21,9 +21,9 @@ function Header() {
   const classes = useStyles();
 
   return (
-    <AppBar position="static" className={classes.root}>
-      <Toolbar>
-        <Typography variant="h6" className={classes.title}>
+    <AppBar data-cy="header-background" position="static" className={classes.root}>
+      <Toolbar data-cy="header-toolbar">
+        <Typography data-cy="header-text" variant="h6" className={classes.title}>
           TODO LIST APP
         </Typography>
       </Toolbar>
